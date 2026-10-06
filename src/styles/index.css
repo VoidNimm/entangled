@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Tailwind v4 @theme block — design tokens for Entangled
+   Color values sampled from actual poster frames (clips01-first.jpg etc.)
+   + PRD §5 reference values cross-checked against reference PNGs.
+   ──────────────────────────────────────────────────────────────────────── */
+@theme {
+  /* Colours — light chapters (Hero, Noise, Unravel) */
+  --color-mint:      #D6EAE2;   /* sampled from clips01-first.jpg bg area   */
+  --color-mint-deep: #CBE3DA;   /* slightly deeper, for gradient end         */
+  --color-ink:       #0A0A0A;   /* PRD §5 — text on light chapters           */
+  --color-cobalt:    #2F6FB8;   /* PRD §5 — accent / eyebrow / progress bar  */
+  --color-cobalt-text: #1F5A9E; /* PRD §5A — accent text variant             */
+
+  /* Colours — dark chapters (Heat, Stillness) */
+  --color-void:      #050808;   /* PRD §5 — dark bg (clips03-last ≈ #030303) */
+  --color-ice:       #BFE0DD;   /* PRD §5 — text on dark chapters (teal-ice) */
+  --color-ice-dim:   #E6F4F1;   /* PRD §5A — primary text on dark            */
+  --color-orange:    #FF8A3D;   /* PRD §5A — dark chapter accent             */
+
+  /* Thermal gradient stops (Heat chapter) */
+  --color-thermal-cool: #3B3FBF;
+  --color-thermal-mid:  #D9382B;
+  --color-thermal-hot:  #FFC83D;
+
+  /* Typography */
+  --font-sans: "Clarity City", ui-sans-serif, system-ui, sans-serif;
+
+  /* Spacing / layout */
+  --spacing-page-desktop: 56px;
+  --spacing-page-mobile:  24px;
+
+  /* Breakpoints */
+  --breakpoint-xs: 360px;
+  --breakpoint-sm: 390px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-2xl: 1920px;
+  --breakpoint-3xl: 2560px;
+}
+
+@custom-variant short (@media (max-height: 500px));
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Global base
+   ──────────────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--color-mint);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overscroll-behavior: none;
+    scroll-behavior: auto; /* Lenis handles smooth scroll */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100svh;
+    overflow-x: hidden;
+  }
+
+  /* Visible focus ring — accessible, consistent */
+  :focus-visible {
+    outline: 2px solid var(--color-cobalt);
+    outline-offset: 3px;
+  }
+
+  /* Remove default list styling in nav contexts */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Nav underline — hover and focus-visible draw-in from left
+   Applied via `.nav-link` class on the <a> elements in Nav.tsx.
+   The underline is a child <span.nav-underline> inside each link.
+   ──────────────────────────────────────────────────────────────────────── */
+@layer components {
+  /* Hover: draw underline in from left */
+  @media (hover: hover) {
+    .nav-link:hover .nav-underline {
+      transform: scaleX(1) !important;
+    }
+  }
+
+  /* Focus-visible: same draw-in effect for keyboard navigation */
+  .nav-link:focus-visible .nav-underline {
+    transform: scaleX(1) !important;
+  }
+
+  /* Override the default focus ring on nav links — the underline IS the indicator */
+  .nav-link:focus-visible {
+    outline: none;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Utilities
+   ──────────────────────────────────────────────────────────────────────── */
+@layer utilities {
+  /* Visually hidden — accessible text for screen readers */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Reduced motion — global safety net
+   All transitions and animations are removed. The JS-side useReducedMotion
+   hook handles the component-level logic (poster stills, no GSAP), but
+   this CSS layer catches any remaining transitions that might slip through.
+   ──────────────────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Hero intro: until the intro timeline takes over, the intro slots are hidden so nothing
+   flashes between the loader fading out and the reveal starting. The timeline sets an inline
+   opacity before this attribute flips to "playing", so removing the rule is flash-free. */
+[data-hero-intro='pending'] [data-intro] {
+  opacity: 0;
+}

@@ -1,0 +1,1331 @@
+{
+  "tag": "after",
+  "scrubFn": "scrollToScrubProgress",
+  "textParity": {
+    "noise": {
+      "0.00": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.05": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.10": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.15": {
+        "title": {
+          "o": 0.017,
+          "t": "matrix(1, 0, 0, 1, 0, 23.5989)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.343,
+          "t": "matrix(1, 0, 0, 1, 0, 15.7713)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.20": {
+        "title": {
+          "o": 0.656,
+          "t": "matrix(1, 0, 0, 1, 0, 8.2625)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.809,
+          "t": "matrix(1, 0, 0, 1, 0, 4.5832)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.25": {
+        "title": {
+          "o": 0.933,
+          "t": "matrix(1, 0, 0, 1, 0, 1.5963)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.978,
+          "t": "matrix(1, 0, 0, 1, 0, 0.5278)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.30": {
+        "title": {
+          "o": 0.999,
+          "t": "matrix(1, 0, 0, 1, 0, 0.0334)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.35": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.40": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.45": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.50": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.55": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.60": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.65": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.70": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.75": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.80": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.85": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, -0.0066)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.998,
+          "t": "matrix(1, 0, 0, 1, 0, -0.061)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.90": {
+        "title": {
+          "o": 0.936,
+          "t": "matrix(1, 0, 0, 1, 0, -1.5417)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.895,
+          "t": "matrix(1, 0, 0, 1, 0, -2.5224)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "0.95": {
+        "title": {
+          "o": 0.601,
+          "t": "matrix(1, 0, 0, 1, 0, -9.567)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.474,
+          "t": "matrix(1, 0, 0, 1, 0, -12.6317)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      },
+      "1.00": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, -24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, -24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "02 — NOISE"
+      }
+    },
+    "unravel": {
+      "0.00": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.05": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.10": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.15": {
+        "title": {
+          "o": 0.019,
+          "t": "matrix(1, 0, 0, 1, 0, 23.5528)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.344,
+          "t": "matrix(1, 0, 0, 1, 0, 15.736)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.20": {
+        "title": {
+          "o": 0.657,
+          "t": "matrix(1, 0, 0, 1, 0, 8.232)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.81,
+          "t": "matrix(1, 0, 0, 1, 0, 4.5626)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.25": {
+        "title": {
+          "o": 0.933,
+          "t": "matrix(1, 0, 0, 1, 0, 1.6091)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.978,
+          "t": "matrix(1, 0, 0, 1, 0, 0.5339)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.30": {
+        "title": {
+          "o": 0.999,
+          "t": "matrix(1, 0, 0, 1, 0, 0.0342)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.35": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.40": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.45": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.50": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.55": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.60": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.65": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.70": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.75": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.80": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.85": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, -0.0064)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.998,
+          "t": "matrix(1, 0, 0, 1, 0, -0.06)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.90": {
+        "title": {
+          "o": 0.936,
+          "t": "matrix(1, 0, 0, 1, 0, -1.536)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.895,
+          "t": "matrix(1, 0, 0, 1, 0, -2.5145)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "0.95": {
+        "title": {
+          "o": 0.602,
+          "t": "matrix(1, 0, 0, 1, 0, -9.5574)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.474,
+          "t": "matrix(1, 0, 0, 1, 0, -12.6201)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      },
+      "1.00": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, -24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, -24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "03 — UNRAVEL"
+      }
+    },
+    "heat": {
+      "0.00": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.05": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.10": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.15": {
+        "title": {
+          "o": 0.019,
+          "t": "matrix(1, 0, 0, 1, 0, 23.5528)",
+          "c": "rgb(10, 10, 10)"
+        },
+        "eyebrow": {
+          "o": 0.344,
+          "t": "matrix(1, 0, 0, 1, 0, 15.736)",
+          "c": "rgb(31, 90, 158)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.20": {
+        "title": {
+          "o": 0.657,
+          "t": "matrix(1, 0, 0, 1, 0, 8.232)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.81,
+          "t": "matrix(1, 0, 0, 1, 0, 4.5626)",
+          "c": "rgb(87, 102, 134)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.25": {
+        "title": {
+          "o": 0.933,
+          "t": "matrix(1, 0, 0, 1, 0, 1.6091)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.978,
+          "t": "matrix(1, 0, 0, 1, 0, 0.5339)",
+          "c": "rgb(253, 138, 62)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.30": {
+        "title": {
+          "o": 0.999,
+          "t": "matrix(1, 0, 0, 1, 0, 0.0342)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.35": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.40": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.45": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.50": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.55": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.60": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.65": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.70": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.75": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.80": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.85": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, -0.0064)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.998,
+          "t": "matrix(1, 0, 0, 1, 0, -0.06)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.90": {
+        "title": {
+          "o": 0.936,
+          "t": "matrix(1, 0, 0, 1, 0, -1.536)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.895,
+          "t": "matrix(1, 0, 0, 1, 0, -2.5145)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "0.95": {
+        "title": {
+          "o": 0.602,
+          "t": "matrix(1, 0, 0, 1, 0, -9.5574)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.474,
+          "t": "matrix(1, 0, 0, 1, 0, -12.6201)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      },
+      "1.00": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, -24)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, -24)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "04 — HEAT"
+      }
+    },
+    "stillness": {
+      "0.00": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.05": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.10": {
+        "title": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0,
+          "t": "matrix(1, 0, 0, 1, 0, 24)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.15": {
+        "title": {
+          "o": 0.046,
+          "t": "matrix(1, 0, 0, 1, 0, 22.8925)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.365,
+          "t": "matrix(1, 0, 0, 1, 0, 15.2321)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.20": {
+        "title": {
+          "o": 0.675,
+          "t": "matrix(1, 0, 0, 1, 0, 7.7988)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.822,
+          "t": "matrix(1, 0, 0, 1, 0, 4.2715)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.25": {
+        "title": {
+          "o": 0.94,
+          "t": "matrix(1, 0, 0, 1, 0, 1.4305)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 0.981,
+          "t": "matrix(1, 0, 0, 1, 0, 0.4498)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.30": {
+        "title": {
+          "o": 0.999,
+          "t": "matrix(1, 0, 0, 1, 0, 0.0198)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.35": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.40": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.45": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.50": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.55": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.60": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.65": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.70": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.75": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.80": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.85": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.90": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "0.95": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      },
+      "1.00": {
+        "title": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(191, 224, 221)"
+        },
+        "eyebrow": {
+          "o": 1,
+          "t": "matrix(1, 0, 0, 1, 0, 0)",
+          "c": "rgb(255, 138, 61)"
+        },
+        "eyebrowText": "05 — STILLNESS"
+      }
+    }
+  },
+  "agreement": [
+    {
+      "chapter": "hero",
+      "p": 0.1,
+      "nav": "hero",
+      "counter": "01 / 05",
+      "dot": "hero",
+      "visibleEyebrows": [
+        "01 — THE MIND"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "hero",
+      "p": 0.5,
+      "nav": "hero",
+      "counter": "01 / 05",
+      "dot": "hero",
+      "visibleEyebrows": [
+        "01 — THE MIND"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "hero",
+      "p": 0.9,
+      "nav": "hero",
+      "counter": "01 / 05",
+      "dot": "hero",
+      "visibleEyebrows": [],
+      "agrees": true
+    },
+    {
+      "chapter": "noise",
+      "p": 0.1,
+      "nav": "noise",
+      "counter": "02 / 05",
+      "dot": "noise",
+      "visibleEyebrows": [
+        "02 — NOISE"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "noise",
+      "p": 0.5,
+      "nav": "noise",
+      "counter": "02 / 05",
+      "dot": "noise",
+      "visibleEyebrows": [
+        "02 — NOISE"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "noise",
+      "p": 0.9,
+      "nav": "noise",
+      "counter": "02 / 05",
+      "dot": "noise",
+      "visibleEyebrows": [
+        "02 — NOISE"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "unravel",
+      "p": 0.1,
+      "nav": "unravel",
+      "counter": "03 / 05",
+      "dot": "unravel",
+      "visibleEyebrows": [],
+      "agrees": true
+    },
+    {
+      "chapter": "unravel",
+      "p": 0.5,
+      "nav": "unravel",
+      "counter": "03 / 05",
+      "dot": "unravel",
+      "visibleEyebrows": [
+        "03 — UNRAVEL"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "unravel",
+      "p": 0.9,
+      "nav": "unravel",
+      "counter": "03 / 05",
+      "dot": "unravel",
+      "visibleEyebrows": [
+        "03 — UNRAVEL"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "heat",
+      "p": 0.1,
+      "nav": "heat",
+      "counter": "04 / 05",
+      "dot": "heat",
+      "visibleEyebrows": [],
+      "agrees": true
+    },
+    {
+      "chapter": "heat",
+      "p": 0.5,
+      "nav": "heat",
+      "counter": "04 / 05",
+      "dot": "heat",
+      "visibleEyebrows": [
+        "04 — HEAT"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "heat",
+      "p": 0.9,
+      "nav": "heat",
+      "counter": "04 / 05",
+      "dot": "heat",
+      "visibleEyebrows": [
+        "04 — HEAT"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "stillness",
+      "p": 0.1,
+      "nav": "stillness",
+      "counter": "05 / 05",
+      "dot": "stillness",
+      "visibleEyebrows": [],
+      "agrees": true
+    },
+    {
+      "chapter": "stillness",
+      "p": 0.5,
+      "nav": "stillness",
+      "counter": "05 / 05",
+      "dot": "stillness",
+      "visibleEyebrows": [
+        "05 — STILLNESS"
+      ],
+      "agrees": true
+    },
+    {
+      "chapter": "stillness",
+      "p": 0.9,
+      "nav": "stillness",
+      "counter": "05 / 05",
+      "dot": "stillness",
+      "visibleEyebrows": [
+        "05 — STILLNESS"
+      ],
+      "agrees": true
+    }
+  ],
+  "thread": {
+    "top": "0.0008833844698990891",
+    "bottom": "0.9991165882941001"
+  },
+  "theme": {
+    "0.02": {
+      "bg": "rgb(5, 8, 8)",
+      "titleColor": "rgb(10, 10, 10)"
+    },
+    "0.1": {
+      "bg": "rgb(5, 8, 8)",
+      "titleColor": "rgb(10, 10, 10)"
+    },
+    "0.15": {
+      "bg": "rgb(5, 8, 8)",
+      "titleColor": "rgb(10, 10, 10)"
+    },
+    "0.18": {
+      "bg": "rgb(5, 8, 8)",
+      "titleColor": "rgb(10, 10, 10)"
+    },
+    "0.22": {
+      "bg": "rgb(5, 8, 8)",
+      "titleColor": "rgb(191, 224, 221)"
+    },
+    "0.3": {
+      "bg": "rgb(5, 8, 8)",
+      "titleColor": "rgb(191, 224, 221)"
+    },
+    "0.5": {
+      "bg": "rgb(5, 8, 8)",
+      "titleColor": "rgb(191, 224, 221)"
+    }
+  },
+  "deepLinks": {
+    "hero": {
+      "activeChapter": "hero",
+      "scrollY": 0,
+      "sectionTop": 0,
+      "clipRatio": 0
+    },
+    "noise": {
+      "activeChapter": "noise",
+      "scrollY": 864,
+      "sectionTop": 864,
+      "clipRatio": 0.204
+    },
+    "unravel": {
+      "activeChapter": "unravel",
+      "scrollY": 3024,
+      "sectionTop": 3024,
+      "clipRatio": 0
+    },
+    "heat": {
+      "activeChapter": "heat",
+      "scrollY": 5184,
+      "sectionTop": 5184,
+      "clipRatio": 0
+    },
+    "stillness": {
+      "activeChapter": "stillness",
+      "scrollY": 7344,
+      "sectionTop": 7344,
+      "clipRatio": 0
+    }
+  }
+}

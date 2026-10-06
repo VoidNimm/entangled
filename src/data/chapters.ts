@@ -1,0 +1,95 @@
+/**
+ * Chapter data for Entangled.
+ * All copy from PRD §6 (placeholders — replace freely).
+ * Clip/poster paths are relative to public/.
+ */
+import type { Chapter } from '../types';
+
+export const chapters: readonly Chapter[] = [
+  {
+    id: 'hero',
+    index: 0,
+    label: 'Mind',
+    eyebrow: '01 — THE MIND',
+    title: 'MESSY BY DESIGN.',
+    body: 'A slow scroll through the noise, the heat and the quiet of how we think.',
+    clipSrc: '/assets/clips/clips01.mp4',
+    clipSrcMobile: '/assets/clips/clips01-m.mp4',
+    posterFirst: '/assets/posters/hero.webp',
+    posterLast: '/assets/posters/clips01-last.jpg',
+    bg: 'var(--color-mint)',
+    theme: 'light',
+    textZone: 'left',
+    objectPosition: { desktop: 'center', mobile: 'center 20%' },
+  },
+  {
+    id: 'noise',
+    index: 1,
+    label: 'Noise',
+    eyebrow: '02 — NOISE',
+    title: 'THOUGHTS DON\'T QUEUE.',
+    body: 'They tangle. Every idea pulls against another — there is no orderly queue inside a mind that is alive.',
+    clipSrc: '/assets/clips/clips01.mp4',
+    clipSrcMobile: '/assets/clips/clips01-m.mp4',
+    posterFirst: '/assets/posters/clips01-first.jpg',
+    posterLast: '/assets/posters/clips01-last.jpg',
+    bg: 'var(--color-mint)',
+    theme: 'light',
+    textZone: 'right',
+    objectPosition: { desktop: 'center', mobile: 'center 20%' },
+  },
+  {
+    id: 'unravel',
+    index: 2,
+    label: 'Unravel',
+    eyebrow: '03 — UNRAVEL',
+    title: 'PULL ONE THREAD.',
+    body: 'And the knot begins to loosen. Clarity is not sudden — it is a slow untangling.',
+    clipSrc: '/assets/clips/clips02.mp4',
+    clipSrcMobile: '/assets/clips/clips02-m.mp4',
+    posterFirst: '/assets/posters/clips02-first.jpg',
+    posterLast: '/assets/posters/clips02-last.jpg',
+    bg: 'var(--color-mint)',
+    theme: 'light',
+    textZone: 'right',
+    objectPosition: { desktop: 'center', mobile: 'center 20%' },
+  },
+  {
+    id: 'heat',
+    index: 3,
+    label: 'Heat',
+    eyebrow: '04 — HEAT',
+    title: 'SOME OF IT BURNS WHERE NO ONE CAN SEE.',
+    body: 'Feeling does not disappear when it is hidden. It gathers, and it glows.',
+    clipSrc: '/assets/clips/clips03.mp4',
+    clipSrcMobile: '/assets/clips/clips03-m.mp4',
+    posterFirst: '/assets/posters/clips03-first.jpg',
+    posterLast: '/assets/posters/clips03-last.jpg',
+    bg: 'var(--color-void)',
+    theme: 'dark',
+    textZone: 'right',
+    themeSwitchAt: 0.18,
+    objectPosition: { desktop: 'center', mobile: 'center 20%' },
+  },
+  {
+    id: 'stillness',
+    index: 4,
+    label: 'Still',
+    eyebrow: '05 — STILLNESS',
+    title: 'QUIET IS NOT EMPTY.',
+    body: 'It is mapped. Every silence holds a shape — the mind at rest is not the mind switched off.',
+    clipSrc: '/assets/clips/clips04.mp4',
+    clipSrcMobile: '/assets/clips/clips04-m.mp4',
+    posterFirst: '/assets/posters/clips04-first.jpg',
+    posterLast: '/assets/posters/clips04-last.jpg',
+    bg: 'var(--color-void)',
+    theme: 'dark',
+    textZone: 'right',
+    objectPosition: { desktop: 'center', mobile: 'center 20%' },
+  },
+] as const;
+
+/** Chapters that have their own video clip (excludes hero which reuses clip 1) */
+export const clipChapters: Chapter[] = chapters.filter(
+  (c) => c.id !== 'hero',
+);

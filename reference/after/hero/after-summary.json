@@ -1,0 +1,197 @@
+{
+  "tag": "after",
+  "baseUrl": "http://localhost:5173",
+  "step": {
+    "px": 100,
+    "ms": 50,
+    "maxMs": 8000
+  },
+  "desktop": {
+    "layout": {
+      "viewportHeight": 1080,
+      "docHeight": 9504,
+      "chapters": [
+        {
+          "id": "hero",
+          "startPx": 0,
+          "endPx": 562,
+          "startVh": 0,
+          "endVh": 0.52
+        },
+        {
+          "id": "noise",
+          "startPx": 562,
+          "endPx": 3024,
+          "startVh": 0.52,
+          "endVh": 2.8
+        },
+        {
+          "id": "unravel",
+          "startPx": 3024,
+          "endPx": 5184,
+          "startVh": 2.8,
+          "endVh": 4.8
+        },
+        {
+          "id": "heat",
+          "startPx": 5184,
+          "endPx": 7344,
+          "startVh": 4.8,
+          "endVh": 6.8
+        },
+        {
+          "id": "stillness",
+          "startPx": 7344,
+          "endPx": 9504,
+          "startVh": 6.8,
+          "endVh": 8.8
+        }
+      ]
+    },
+    "milestones": {
+      "heroOpacityBelow095": {
+        "scrollY": 88,
+        "elapsedMs": 158,
+        "scrollVh": 0.081
+      },
+      "heroOpacityZero": {
+        "scrollY": 562,
+        "elapsedMs": 524,
+        "scrollVh": 0.52
+      },
+      "heroTransformChanged": {
+        "scrollY": 88,
+        "elapsedMs": 158,
+        "scrollVh": 0.081
+      },
+      "videoMovedMoreThan1Frame": {
+        "scrollY": 389,
+        "elapsedMs": 407,
+        "scrollVh": 0.36
+      },
+      "noiseHeadlineOpacityAtLeast05": {
+        "scrollY": 849,
+        "elapsedMs": 704,
+        "scrollVh": 0.786
+      }
+    },
+    "samples": 134,
+    "finalScrollY": 8424,
+    "assertions": [
+      {
+        "name": "exit has >= 6 distinct intermediate opacities (0.05..0.95) across hero text elements",
+        "pass": true,
+        "detail": "17 distinct values over 8 wheel samples inside the exit"
+      },
+      {
+        "name": "opacity monotonic non-increasing while scrolling down",
+        "pass": true,
+        "detail": "ok"
+      },
+      {
+        "name": "scroll back to top restores hero (opacity 1, scrollY 0, no leftover transform)",
+        "pass": true,
+        "detail": "{\"y\":0,\"oMax\":1,\"oMin\":1,\"dirty\":false}"
+      },
+      {
+        "name": "after fast flicks + return to top: opacity 1, no transform",
+        "pass": true,
+        "detail": "{\"y\":0,\"oMax\":1,\"oMin\":1,\"dirty\":false}"
+      }
+    ]
+  },
+  "mobile": {
+    "layout": {
+      "viewportHeight": 844,
+      "docHeight": 7427,
+      "chapters": [
+        {
+          "id": "hero",
+          "startPx": 0,
+          "endPx": 439,
+          "startVh": 0,
+          "endVh": 0.52
+        },
+        {
+          "id": "noise",
+          "startPx": 439,
+          "endPx": 2363,
+          "startVh": 0.52,
+          "endVh": 2.8
+        },
+        {
+          "id": "unravel",
+          "startPx": 2363,
+          "endPx": 4051,
+          "startVh": 2.8,
+          "endVh": 4.8
+        },
+        {
+          "id": "heat",
+          "startPx": 4051,
+          "endPx": 5739,
+          "startVh": 4.8,
+          "endVh": 6.8
+        },
+        {
+          "id": "stillness",
+          "startPx": 5739,
+          "endPx": 7427,
+          "startVh": 6.8,
+          "endVh": 8.8
+        }
+      ]
+    },
+    "milestones": {
+      "heroOpacityBelow095": {
+        "scrollY": 70,
+        "elapsedMs": 205,
+        "scrollVh": 0.083
+      },
+      "heroOpacityZero": {
+        "scrollY": 427,
+        "elapsedMs": 704,
+        "scrollVh": 0.506
+      },
+      "heroTransformChanged": {
+        "scrollY": 43,
+        "elapsedMs": 156,
+        "scrollVh": 0.051
+      },
+      "videoMovedMoreThan1Frame": {
+        "scrollY": 334,
+        "elapsedMs": 588,
+        "scrollVh": 0.396
+      },
+      "noiseHeadlineOpacityAtLeast05": {
+        "scrollY": 666,
+        "elapsedMs": 1002,
+        "scrollVh": 0.789
+      }
+    },
+    "samples": 131,
+    "finalScrollY": 6369,
+    "assertions": [
+      {
+        "name": "exit has >= 6 distinct intermediate opacities (0.05..0.95) across hero text elements",
+        "pass": true,
+        "detail": "22 distinct values over 11 wheel samples inside the exit"
+      },
+      {
+        "name": "opacity monotonic non-increasing while scrolling down",
+        "pass": true,
+        "detail": "ok"
+      },
+      {
+        "name": "scroll back to top restores hero (opacity 1, scrollY 0, no leftover transform)",
+        "pass": true,
+        "detail": "{\"y\":0,\"oMax\":1,\"oMin\":1,\"dirty\":false}"
+      },
+      {
+        "name": "after fast flicks + return to top: opacity 1, no transform",
+        "pass": true,
+        "detail": "{\"y\":0,\"oMax\":1,\"oMin\":1,\"dirty\":false}"
+      }
+    ]
+  }
+}

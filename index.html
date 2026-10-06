@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; media-src 'self'; script-src 'self' 'unsafe-inline'; connect-src 'self'" />
+    <meta name="description" content="A scroll-driven experience through the noise, heat, and quiet of how we think. One mind. Four states." />
+    <meta name="author" content="TODO_REPLACE" />
+    <meta name="robots" content="index, follow" />
+    
+    <meta name="theme-color" content="#DCEBE3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#050808" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Entangled | A scroll through the messy human mind" />
+    <meta property="og:description" content="A scroll-driven experience through the noise, heat, and quiet of how we think. One mind. Four states." />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_SITE_URL%/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A wire-figure crouching, representing a tangled mind" />
+    <meta property="og:site_name" content="Entangled" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Entangled | A scroll through the messy human mind" />
+    <meta name="twitter:description" content="A scroll-driven experience through the noise, heat, and quiet of how we think. One mind. Four states." />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/og.jpg" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Entangled",
+      "url": "%VITE_SITE_URL%/"
+    }
+    </script>
+
+    <!-- Clarity City - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clarity+City:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="/assets/posters/hero.webp" fetchpriority="high">
+
+    <title>Entangled | A scroll through the messy human mind</title>
+  </head>
+  <body>
+    <noscript>
+      <style>
+        .noscript-wrap { padding: 2rem; max-width: 800px; margin: 0 auto; font-family: ui-sans-serif, system-ui, sans-serif; background: #DCEBE3; color: #0A0A0A; }
+      </style>
+      <div class="noscript-wrap">
+        <h1 style="text-transform: uppercase; font-weight: 800;">Entangled</h1>
+        <p>A scroll-driven experience through the noise, heat, and quiet of how we think. One mind. Four states.</p>
+        <img src="/assets/posters/hero.webp" alt="Hero frame" style="width: 100%; max-width: 600px; margin: 1rem 0; aspect-ratio: 16/9; display: block;" />
+        
+        <!-- These must be kept in sync with chapters.ts -->
+        <h2>Mind</h2>
+        <p>Thoughts don't queue. They tangle.</p>
+        
+        <h2>Noise</h2>
+        <p>A loop you didn't ask for.</p>
+        
+        <h2>Unravel</h2>
+        <p>Pull one thread, and the knot begins to loosen.</p>
+        
+        <h2>Heat</h2>
+        <p>Some of it burns where no one can see.</p>
+        
+        <h2>Stillness</h2>
+        <p>Quiet is not empty. It is mapped.</p>
+        
+        <hr style="margin: 2rem 0; border: none; border-top: 1px solid #000;" />
+        <p>
+          <a href="mailto:TODO_REPLACE">Email</a> | <a href="TODO_REPLACE">Twitter</a> | <a href="TODO_REPLACE">LinkedIn</a>
+        </p>
+      </div>
+    </noscript>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

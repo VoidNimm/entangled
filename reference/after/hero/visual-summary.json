@@ -1,0 +1,161 @@
+{
+  "overlap": {
+    "1920x1080": [
+      {
+        "label": "eyebrow",
+        "figurePx": 0,
+        "gapToFigureCssPx": 380
+      },
+      {
+        "label": "title-word-0:MESSY",
+        "figurePx": 0,
+        "gapToFigureCssPx": 211
+      },
+      {
+        "label": "title-word-1:BY",
+        "figurePx": 0,
+        "gapToFigureCssPx": 67
+      },
+      {
+        "label": "title-word-2:DESIGN.",
+        "figurePx": 0,
+        "gapToFigureCssPx": 152
+      },
+      {
+        "label": "subtitle-line-0",
+        "figurePx": 0,
+        "gapToFigureCssPx": 72
+      },
+      {
+        "label": "subtitle-line-1",
+        "figurePx": 0,
+        "gapToFigureCssPx": 38
+      },
+      {
+        "label": "cue",
+        "figurePx": 0,
+        "gapToFigureCssPx": 217
+      }
+    ],
+    "1440x900": [
+      {
+        "label": "eyebrow",
+        "figurePx": 0,
+        "gapToFigureCssPx": 371
+      },
+      {
+        "label": "title-word-0:MESSY",
+        "figurePx": 0,
+        "gapToFigureCssPx": 244
+      },
+      {
+        "label": "title-word-1:BY",
+        "figurePx": 0,
+        "gapToFigureCssPx": 135
+      },
+      {
+        "label": "title-word-2:DESIGN.",
+        "figurePx": 0,
+        "gapToFigureCssPx": 211
+      },
+      {
+        "label": "subtitle-line-0",
+        "figurePx": 0,
+        "gapToFigureCssPx": 117
+      },
+      {
+        "label": "subtitle-line-1",
+        "figurePx": 0,
+        "gapToFigureCssPx": 88
+      },
+      {
+        "label": "cue",
+        "figurePx": 0,
+        "gapToFigureCssPx": 212
+      }
+    ],
+    "1280x720": [
+      {
+        "label": "eyebrow",
+        "figurePx": 0,
+        "gapToFigureCssPx": 365
+      },
+      {
+        "label": "title-word-0:MESSY",
+        "figurePx": 0,
+        "gapToFigureCssPx": 226
+      },
+      {
+        "label": "title-word-1:BY",
+        "figurePx": 0,
+        "gapToFigureCssPx": 130
+      },
+      {
+        "label": "title-word-2:DESIGN.",
+        "figurePx": 0,
+        "gapToFigureCssPx": 190
+      },
+      {
+        "label": "subtitle-line-0",
+        "figurePx": 0,
+        "gapToFigureCssPx": 96
+      },
+      {
+        "label": "subtitle-line-1",
+        "figurePx": 0,
+        "gapToFigureCssPx": 69
+      },
+      {
+        "label": "cue",
+        "figurePx": 0,
+        "gapToFigureCssPx": 182
+      }
+    ],
+    "390x844": [
+      {
+        "label": "eyebrow",
+        "figurePx": 2178,
+        "gapToFigureCssPx": 0
+      },
+      {
+        "label": "title-word-0:MESSY",
+        "figurePx": 4768,
+        "gapToFigureCssPx": 0
+      },
+      {
+        "label": "title-word-1:BY",
+        "figurePx": 1961,
+        "gapToFigureCssPx": 0
+      },
+      {
+        "label": "title-word-2:DESIGN.",
+        "figurePx": 5459,
+        "gapToFigureCssPx": 0
+      },
+      {
+        "label": "subtitle-line-0",
+        "figurePx": 4711,
+        "gapToFigureCssPx": 0
+      },
+      {
+        "label": "subtitle-line-1",
+        "figurePx": 4497,
+        "gapToFigureCssPx": 0
+      },
+      {
+        "label": "cue",
+        "figurePx": 832,
+        "gapToFigureCssPx": 0
+      }
+    ]
+  },
+  "perf": {
+    "cpuThrottle": 4,
+    "viewport": "390x844",
+    "frames": 95,
+    "p50Ms": 16.7,
+    "p95Ms": 33.4,
+    "maxMs": 50.1,
+    "over33ms": 2
+  }
+}
